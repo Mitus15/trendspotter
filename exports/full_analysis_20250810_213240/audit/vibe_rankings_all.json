@@ -1,0 +1,164 @@
+[
+  {
+    "label": "Genre — sci fi",
+    "source": "main",
+    "forecast_popularity": 1669.568445675044,
+    "avg_volatility": 94.62857370680108,
+    "pop_nrm": 1.0,
+    "vol_nrm": 0.6583611052625694,
+    "composite_index": 0.8975083315787707
+  },
+  {
+    "label": "Genre — comedy",
+    "source": "main",
+    "forecast_popularity": 1243.9308062950724,
+    "avg_volatility": 70.38212903603532,
+    "pop_nrm": 0.7448832738044767,
+    "vol_nrm": 0.8097655971062129,
+    "composite_index": 0.7643479707949976
+  },
+  {
+    "label": "Genre — war",
+    "source": "main",
+    "forecast_popularity": 702.6464575021624,
+    "avg_volatility": 56.756405366543724,
+    "pop_nrm": 0.42045075602695975,
+    "vol_nrm": 0.8832251537843444,
+    "composite_index": 0.5592830753541751
+  },
+  {
+    "label": "Genre — action",
+    "source": "main",
+    "forecast_popularity": 561.1266172045126,
+    "avg_volatility": 64.86755268315844,
+    "pop_nrm": 0.33562724652473924,
+    "vol_nrm": 0.8045626116473021,
+    "composite_index": 0.47630785606150805
+  },
+  {
+    "label": "Genre — animation",
+    "source": "main",
+    "forecast_popularity": 478.2431658020648,
+    "avg_volatility": 77.0744014077441,
+    "pop_nrm": 0.28594894549764915,
+    "vol_nrm": 0.6611324175263624,
+    "composite_index": 0.3985039871062631
+  },
+  {
+    "label": "Genre — romance",
+    "source": "main",
+    "forecast_popularity": 360.65002264711734,
+    "avg_volatility": 78.73807970350445,
+    "pop_nrm": 0.21546650943200224,
+    "vol_nrm": 0.6253522354988209,
+    "composite_index": 0.3384322272520478
+  },
+  {
+    "label": "Genre — crime",
+    "source": "main",
+    "forecast_popularity": 369.66034853333366,
+    "avg_volatility": 81.05429733528754,
+    "pop_nrm": 0.22086707702605898,
+    "vol_nrm": 0.5952724543928336,
+    "composite_index": 0.3331886902360913
+  },
+  {
+    "label": "Genre — romantic comedy",
+    "source": "main",
+    "forecast_popularity": 1.1649437668244467,
+    "avg_volatility": 30.82612177311968,
+    "pop_nrm": 0.0,
+    "vol_nrm": 1.0,
+    "composite_index": 0.3
+  },
+  {
+    "label": "Genre — fantasy",
+    "source": "main",
+    "forecast_popularity": 344.21518918111695,
+    "avg_volatility": 96.07341631261471,
+    "pop_nrm": 0.205615874710124,
+    "vol_nrm": 0.36318180461541083,
+    "composite_index": 0.25288565368171
+  },
+  {
+    "label": "Genre — adventure",
+    "source": "main",
+    "forecast_popularity": 206.3146220117251,
+    "avg_volatility": 83.79761848785442,
+    "pop_nrm": 0.12296166845146442,
+    "vol_nrm": 0.5325999683584294,
+    "composite_index": 0.24585315842355387
+  },
+  {
+    "label": "Genre — thriller",
+    "source": "main",
+    "forecast_popularity": 428.0597755320014,
+    "avg_volatility": 109.41438036773486,
+    "pop_nrm": 0.255870256371987,
+    "vol_nrm": 0.15075968906489223,
+    "composite_index": 0.22433708617985856
+  },
+  {
+    "label": "Genre — drama",
+    "source": "main",
+    "forecast_popularity": 311.2221329518716,
+    "avg_volatility": 103.12899047437368,
+    "pop_nrm": 0.18584064875818254,
+    "vol_nrm": 0.23337388115653523,
+    "composite_index": 0.20010061847768834
+  },
+  {
+    "label": "Genre — documentary",
+    "source": "main",
+    "forecast_popularity": 161.76761225446583,
+    "avg_volatility": 96.52339958862181,
+    "pop_nrm": 0.09626128709509044,
+    "vol_nrm": 0.3164321012151152,
+    "composite_index": 0.16231253133109785
+  },
+  {
+    "label": "Genre — superhero",
+    "source": "main",
+    "forecast_popularity": 155.2433466758231,
+    "avg_volatility": 96.37255888910484,
+    "pop_nrm": 0.09235080286799509,
+    "vol_nrm": 0.3176994085512479,
+    "composite_index": 0.15995538457297093
+  },
+  {
+    "label": "Genre — horror",
+    "source": "main",
+    "forecast_popularity": 297.46261630387386,
+    "avg_volatility": 110.65004568736107,
+    "pop_nrm": 0.17759353309805573,
+    "vol_nrm": 0.0887967665490279,
+    "composite_index": 0.15095450313334738
+  },
+  {
+    "label": "Genre — mystery",
+    "source": "main",
+    "forecast_popularity": 202.44874486205748,
+    "avg_volatility": 108.50046619173993,
+    "pop_nrm": 0.12064455682634131,
+    "vol_nrm": 0.1029335367020443,
+    "composite_index": 0.11533125078905221
+  },
+  {
+    "label": "Genre — historical",
+    "source": "main",
+    "forecast_popularity": 119.88548682002248,
+    "avg_volatility": 102.39454252242628,
+    "pop_nrm": 0.07115817181959437,
+    "vol_nrm": 0.19893670225908278,
+    "composite_index": 0.10949173095144088
+  },
+  {
+    "label": "Genre — western",
+    "source": "main",
+    "forecast_popularity": 67.94151096994926,
+    "avg_volatility": 102.53660837556896,
+    "pop_nrm": 0.04002423102489883,
+    "vol_nrm": 0.18325775182353599,
+    "composite_index": 0.08299428726448997
+  }
+]

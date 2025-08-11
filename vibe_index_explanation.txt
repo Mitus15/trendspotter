@@ -1,0 +1,40 @@
+Vibe Index - Definition and Computation
+
+What it is
+- Composite score to rank labels (genres/subtags) by expected opportunity: high forecasted popularity, low risk (volatility).
+
+Inputs per label
+- Forecasted popularity (pop): sum of ARIMA forecast means over the horizon.
+- Average volatility (vol): mean of GARCH(1,1) volatility forecasts over the horizon.
+
+Normalization (min–max over candidates)
+- pop_nrm = (pop - pop_min) / max(eps, pop_max - pop_min)
+- vol_raw = (vol - vol_min) / max(eps, vol_max - vol_min)
+  where eps = 1e-9.
+
+Risk penalty with popularity dampening
+- risk = vol_raw ^ gamma
+- eff_risk = risk * (1 - reward_dampen * pop_nrm)
+- vol_nrm = 1 - eff_risk
+
+Composite index (weighted blend)
+- composite_index = (w_pop * pop_nrm + w_vol * vol_nrm) / max(eps, w_pop + w_vol)
+
+Parameters
+- gamma (RISK_GAMMA) > 0: nonlinearity of volatility penalty (larger => penalize high vol more).
+- reward_dampen in [0,1]: reduces effective risk for already-popular labels.
+- w_pop, w_vol: weights for popularity vs. (inverted) risk.
+- eps = 1e-9: numeric stability.
+
+Interpretation
+- Higher composite_index is better (more popular and/or less risky after dampening).
+- For similar popularity, lower volatility ranks higher.
+- Popularity can partially offset volatility via reward_dampen, but extreme risk remains penalized as gamma increases.
+
+Scope
+- The umbrella label "— other" is excluded from overall ranking.
+- Normalization is computed over the candidate set used in each run.
+
+Provenance
+- ARIMA for popularity (with ADF tests, residual diagnostics, simple holdout backtests).
+- GARCH(1,1) for volatility on log-returns (ARCH-LM, Ljung–Box, Jarque–Bera diagnostics).
